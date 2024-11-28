@@ -11,7 +11,7 @@ if __name__ == "__main__":
     tmp_dir = "../zip_out/tmp_dir"
 
     level = 1
-    kernel = "bz2"   # options: (1) gz  (2) bz2
+    kernel = "gz"   # options: (1) gz  (2) bz2
     n_workers = 1
     
     zipper = Ziplog(logformat="<Date> <Time> <Pid> <Level> <Component>: <Content>",
